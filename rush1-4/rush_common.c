@@ -5,7 +5,7 @@
 ** Login   <arthur.melin@epitech.net>
 ** 
 ** Started on  Sat Oct  8 13:39:24 2016 Arthur Melin
-** Last update Sat Oct  8 16:22:33 2016 Arthur Melin
+** Last update Sun Oct  9 09:24:11 2016 Arthur Melin
 */
 
 #include "rush_common.h"
@@ -57,7 +57,7 @@ void	rush_common_rect(int w, int h, t_rect_fmt *fmt)
 void	rush_common(int w, int h, t_rect_fmt *fmt)
 {
   if (w < 1 || h < 1)
-      my_putstr("Invalid size");
+      my_putstr("Invalid size\n");
   else
     {
       if (h == 1)
